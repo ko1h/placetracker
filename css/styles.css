@@ -1,0 +1,11 @@
+.well {
+  width: 50%;
+  float: right;
+}
+#show-place{
+  display: none;
+}
+
+.container {
+  margin-top: 30px;
+}

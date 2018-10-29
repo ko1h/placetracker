@@ -14,7 +14,11 @@
         <h1>Place Tracker</h1>
         <p>Keep track of all the place you go!</p>
       </div>
-      <form id="places-form">
+      <div class="row">
+
+
+      </div>
+      <form id="places-form" class="col-sm-6">
         <div class="form-group">
              <label for="name">label for place</label>
              <input id="name" class="form-control" type="text">
@@ -37,23 +41,20 @@
             </div>
         <button type="submit" id="submit-btn">Add Place!</button>
       </form>
-      <div id="result-well">
         <div id="show-place">
-          <p>Label: <span class ="name"></span></p>
-          <p>Location: <span class ="location"></span></p>
-          <p>Landmarks: <span class ="landmark"></span></p>
-          <p>Date: <span class ="date"></span></p>
-          <p>Notes: <span class ="note"></span></p>
-          <div id="buttons">
+          <div class="well" class="col-sm-6">
+            <h1>Past Places: </h1>
+            <ul id="results">
+            </ul>
+              <p>Label: <span class ="name"></span></p>
+              <p>Location: <span class ="location"></span></p>
+              <p>Landmarks: <span class ="landmark"></span></p>
+              <p>Date: <span class ="date"></span></p>
+              <p>Notes: <span class ="note"></span></p>
+              <div id="buttons">
+            </div>
           </div>
         </div>
-
-
-
-        <ul id="results">
-          <li></li>
-        </ul>
-
       </div>
     </div>
   </body>
