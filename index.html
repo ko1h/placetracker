@@ -16,6 +16,10 @@
       </div>
       <form id="places-form">
         <div class="form-group">
+             <label for="name">label for place</label>
+             <input id="name" class="form-control" type="text">
+           </div>
+        <div class="form-group">
              <label for="location">Name of Place</label>
              <input id="location-input" class="form-control" type="text">
            </div>
@@ -34,7 +38,19 @@
         <button type="submit" id="submit-btn">Add Place!</button>
       </form>
       <div id="result-well">
-        <ul>
+        <div id="show-place">
+          <p>Label: <span class ="name"></span></p>
+          <p>Location: <span class ="location"></span></p>
+          <p>Landmarks: <span class ="landmark"></span></p>
+          <p>Date: <span class ="date"></span></p>
+          <p>Notes: <span class ="note"></span></p>
+          <div id="buttons">
+          </div>
+        </div>
+
+
+
+        <ul id="results">
           <li></li>
         </ul>
 
